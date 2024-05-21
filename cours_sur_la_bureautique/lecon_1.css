@@ -65,8 +65,11 @@ img, .right{
         /* margin-right: 50px; */
     }
 
+    .right{
+      width: 0 auto;
+    }
+
     .focus{
-      /* display: block; */
-      /* color: red; */
+      z-index: 1;
     }
 }
