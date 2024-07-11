@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Caladea:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    padding: 0 9px;
+    /* margin: 0; */
+    background-color: beige;
+    font-family: "Caladea", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+body{
+    border: 1px solid #fff;
+    box-shadow: 1px 1px 8px 1px;
+    line-height: 30px;
+}
+
+.Windows img{
+    width: 300px;
+    border-radius: 35px;
+}
+
+.Windows .clic{
+    width: 800px;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 35px;
+}
+
+/* Page du programme */
+
+.programme h1{
+    text-decoration: underline;
+}
+
+h4{
+    font-style: italic;
+}
+
+.programme a{
+    color: #000;
+}
+
+a:hover{
+    color: #24adf3;
+}
+hr{
+    background-color: #000;
+    border-width: 10px; 
+    height: 5px;
+}
+
+/* Le footer */
+
+footer a{
+    display: inline-flex;
+}
+
+.previous{
+    border-radius: 15px;
+    color: #fff;
+    text-decoration: none;
+    /* border: 1px solid #fff; */
+    background-color: #1987E7;
+}
+
+.next{
+    border-radius: 15px;
+    color: #fff;
+    text-decoration: none;
+    /* border: 1px solid #fff; */
+    background-color: #1987E7;
+}
+/* Le responsive */
+
+@media screen and (max-width: 900px) {
+    .Windows img{
+        width: 200px;
+    }
+    
+    .Windows .clic{
+        width: 400px;
+    }
+
+    p, h2{
+        font-size: 19px;
+    }
+
+    h1{
+        font-size: 30px;
+    }
+}
