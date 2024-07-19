@@ -1,109 +1,141 @@
-@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Caladea:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Caladea:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
-*{
-    padding: 0 9px;
-    /* margin: 0; */
-    background-color: beige;
-    font-family: "Caladea", serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 20px;
+/* body et souris */
+* {
+  padding: 0 9px;
+  /* margin: 0; */
+  background-color: beige;
+  font-family: "Caladea", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
 }
 
-body{
-    border: 1px solid #fff;
-    box-shadow: 1px 1px 8px 1px;
-    line-height: 30px;
+body {
+  border: 1px solid #fff;
+  box-shadow: 1px 1px 8px 1px;
+  line-height: 25px;
 }
 
-.Windows img{
-    width: 300px;
-    border-radius: 35px;
+.Windows img {
+  width: 300px;
+  border-radius: 35px;
 }
 
-.Windows .clic{
-    width: 800px;
+.Windows .clic {
+  width: 800px;
 }
 
-h1{
-    font-weight: bold;
-    font-size: 35px;
+h1 {
+  font-weight: bold;
+  font-size: 35px;
 }
+
+/* fin de body et souris */
 
 /* Page du programme */
 
-.programme h1{
-    text-decoration: underline;
+.programme h1 {
+  text-decoration: underline;
 }
 
-nav a{
-    float: right;
-    text-decoration: none;
-    color: #000;
-    font-weight: bold;
+nav a {
+  float: right;
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
 
-    margin: 5px;
-    border-radius: 10px;
-    box-shadow: 2px 2px 5px 0px;
-    background-color: #1987E7;
+  margin: 5px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px 0px;
+  background-color: #1987e7;
 }
-h4{
-    font-style: italic;
-}
-
-.programme a{
-    color: #000;
+h4 {
+  font-style: italic;
 }
 
-a:hover{
-    color: #24adf3;
+.programme a {
+  color: #000;
 }
-hr{
-    background-color: #000;
-    border-width: 10px; 
-    height: 5px;
+
+a:hover {
+  color: #24adf3;
 }
+hr {
+  background-color: #000;
+  border-width: 10px;
+  height: 5px;
+}
+
+/* fin de la page du programme */
 
 /* Le footer */
 
-footer a{
-    display: inline-flex;
-    margin-bottom: 10px;
-    /* position: sticky; */
-
+footer a {
+  display: inline-flex;
+  margin-bottom: 10px;
+  /* position: sticky; */
 }
 
-.previous{
-    border-radius: 15px;
-    color: #fff;
-    text-decoration: none;
-    background-color: #1987E7;
+.previous {
+  border-radius: 15px;
+  color: #fff;
+  text-decoration: none;
+  background-color: #1987e7;
 }
 
-.next{
-    border-radius: 15px;
-    color: #fff;
-    text-decoration: none;
-    background-color: #1987E7;
+.next {
+  border-radius: 15px;
+  color: #fff;
+  text-decoration: none;
+  background-color: #1987e7;
 }
+/* fin du footer */
+
+/* la page du clavier */
+.clavier {
+  line-height: 5px;
+  margin-left: 25px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.decouvrir img{
+    /* float: right; */
+  float: left;
+}
+
+.decouvrir{
+  float: right;
+}
+
+.decouvrir p{
+  padding:  55px 400px;
+  font-style: italic;
+}
+
+
+/* fin de la page du clavier */
 
 /* Le responsive */
 
 @media screen and (max-width: 900px) {
-    .Windows img{
-        width: 200px;
-    }
-    
-    .Windows .clic{
-        width: 400px;
-    }
+  .Windows img {
+    width: 200px;
+  }
 
-    p, h2{
-        font-size: 19px;
-    }
+  .Windows .clic {
+    width: 400px;
+  }
 
-    h1{
-        font-size: 30px;
-    }
+  p,
+  h2 {
+    font-size: 19px;
+  }
 
+  h1 {
+    font-size: 30px;
+  }
 }
