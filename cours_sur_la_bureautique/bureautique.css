@@ -103,7 +103,6 @@ footer a {
 }
 
 .decouvrir img{
-    /* float: right; */
   float: left;
 }
 
@@ -116,7 +115,56 @@ footer a {
   font-style: italic;
 }
 
+.red{
+  color: #D65600;
+}
 
+span{
+  font-weight: bold;
+}
+
+.black{
+  color: #000;
+}
+
+.touche img{
+  float: right;
+  margin-right: 400px;
+}
+
+.tech{
+  line-height: 5px;
+  margin-left: 20px;
+}
+
+.ponctuation{
+  line-height: 5px;
+  margin-left: 13px;
+}
+
+.majuscule{
+  line-height: 5px;
+  margin-left: 13px;
+}
+
+.line{
+  line-height: 22px;
+}
+
+.tabulation{
+   margin-left: 13px;
+}
+
+.ctrl{
+  line-height: 8px;
+  margin-left: 19px;
+}
+
+.wrap{
+  display: flex;
+  line-height: 8px;
+  margin-bottom: 20px;
+}
 /* fin de la page du clavier */
 
 /* Le responsive */
