@@ -31,6 +31,13 @@ h1 {
   font-size: 35px;
 }
 
+.avant {
+  float: left;
+}
+
+.apres {
+  float: right;
+}
 /* fin de body et souris */
 
 /* Page du programme */
@@ -74,9 +81,11 @@ hr {
 footer a {
   display: inline-flex;
   margin-bottom: 10px;
-  /* position: sticky; */
 }
 
+footer {
+  margin-bottom: 55px;
+}
 .previous {
   border-radius: 15px;
   color: #fff;
@@ -98,78 +107,91 @@ footer a {
   margin-left: 25px;
 }
 
-.bold{
-    font-weight: bold;
-}
-
-.decouvrir img{
-  float: left;
-}
-
-.decouvrir{
-  float: right;
-}
-
-.decouvrir p{
-  padding:  55px 400px;
-  font-style: italic;
-}
-
-.red{
-  color: #D65600;
-}
-
-span{
+.bold {
   font-weight: bold;
 }
 
-.black{
+.decouvrir img {
+  float: left;
+}
+
+.decouvrir {
+  float: right;
+}
+
+.decouvrir p {
+  padding: 55px 400px;
+  font-style: italic;
+}
+
+.red {
+  color: #d65600;
+}
+
+span {
+  font-weight: bold;
+}
+
+.black {
   color: #000;
 }
 
-.touche img{
+.touche img {
   float: right;
   margin-right: 400px;
 }
 
-.tech{
+.tech {
   line-height: 5px;
   margin-left: 20px;
 }
 
-.ponctuation{
+.ponctuation {
   line-height: 5px;
   margin-left: 13px;
 }
 
-.majuscule{
+.majuscule {
   line-height: 5px;
   margin-left: 13px;
 }
 
-.line{
+.line {
   line-height: 22px;
 }
 
-.tabulation{
-   margin-left: 13px;
+.tabulation {
+  margin-left: 13px;
 }
 
-.ctrl{
+.ctrl {
   line-height: 8px;
   margin-left: 19px;
 }
 
-.wrap{
+.wrap {
   display: flex;
   line-height: 8px;
   margin-bottom: 20px;
 }
+
+* {
+  /* border: 1px solid; */
+}
 /* fin de la page du clavier */
+
+/* page de la presentation de microsoft */
+
+.word{
+  width: 75%;
+}
+
+/* fin de la page de la presentation de microsoft */
 
 /* Le responsive */
 
 @media screen and (max-width: 900px) {
+  /* code pour la souris */
   .Windows img {
     width: 200px;
   }
@@ -186,4 +208,38 @@ span{
   h1 {
     font-size: 30px;
   }
+  
 }
+/*fin du code pour la souris */
+
+/* code pour le clavier */
+@media screen and (max-width: 690px) {
+  .clavier {
+    display: inline-block;
+    line-height: 20px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  img {
+    width: 400px;
+  }
+
+  .touche img {
+    width: 200px;
+    float: left;
+  }
+
+  .decouvrir{
+    width: 50px;
+    float: left;
+  }
+
+  .resp{
+    width: 50px;
+  }
+}
+/*fin du code pour le clavier */
+
