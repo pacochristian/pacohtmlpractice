@@ -186,6 +186,7 @@ span {
   width: 75%;
 }
 
+
 /* fin de la page de la presentation de microsoft */
 
 /* Le responsive */
@@ -243,3 +244,40 @@ span {
 }
 /*fin du code pour le clavier */
 
+@media screen and (max-width: 400px){
+  .pres{
+    width: 250px;
+  }
+
+  .exel{
+    width: 250px;
+  }
+
+  .point{
+    width: 250px;
+  }
+
+  .out{
+    width: 250px;
+  }
+
+  .access{
+    width: 250px;
+  }
+
+  .office{
+    width: 250px;
+  }
+
+  .open{
+    width: 250px;
+  }
+
+  .mac{
+    width: 250px;
+  }
+
+  .suite{
+    width: 250px;
+  }
+}
