@@ -182,10 +182,9 @@ span {
 
 /* page de la presentation de microsoft */
 
-.word{
+.word {
   width: 75%;
 }
-
 
 /* fin de la page de la presentation de microsoft */
 
@@ -209,7 +208,6 @@ span {
   h1 {
     font-size: 30px;
   }
-  
 }
 /*fin du code pour la souris */
 
@@ -233,51 +231,74 @@ span {
     float: left;
   }
 
-  .decouvrir{
+  .decouvrir {
     width: 50px;
     float: left;
   }
 
-  .resp{
+  .resp {
     width: 50px;
   }
 }
 /*fin du code pour le clavier */
 
-@media screen and (max-width: 400px){
-  .pres{
+/* code du microsoft office */
+@media screen and (max-width: 400px) {
+  .pres {
     width: 250px;
   }
 
-  .exel{
+  .exel {
     width: 250px;
   }
 
-  .point{
+  .point {
     width: 250px;
   }
 
-  .out{
+  .out {
     width: 250px;
   }
 
-  .access{
+  .access {
     width: 250px;
   }
 
-  .office{
+  .office {
     width: 250px;
   }
 
-  .open{
+  .open {
     width: 250px;
   }
 
-  .mac{
+  .mac {
     width: 250px;
   }
 
-  .suite{
+  .suite {
+    width: 250px;
+  }
+  .fword {
+    width: 250px;
+  }
+  .menu {
+    width: 250px;
+  }
+  .btn {
+    width: 250px;
+  }
+  .fichier {
+    width: 250px;
+  }
+  .page {
+    width: 250px;
+  }
+  .par span {
+    font-size: 19px;
+  }
+  .curseur{
     width: 250px;
   }
 }
+/* fin du code du microsoft office */
