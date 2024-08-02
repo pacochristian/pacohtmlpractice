@@ -231,13 +231,24 @@ span {
     float: left;
   }
 
-  .decouvrir {
-    width: 50px;
-    float: left;
+  .tech p {
+    line-height: normal;
   }
 
-  .resp {
-    width: 50px;
+  .ponctuation {
+    line-height: normal;
+  }
+
+  .majuscule {
+    line-height: normal;
+  }
+
+  .ctrl p{
+    line-height: normal;
+  }
+
+  .alt p{
+    line-height: normal;
   }
 }
 /*fin du code pour le clavier */
@@ -297,7 +308,7 @@ span {
   .par span {
     font-size: 19px;
   }
-  .curseur{
+  .curseur {
     width: 250px;
   }
 }
