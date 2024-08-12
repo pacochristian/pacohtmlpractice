@@ -213,7 +213,7 @@ span {
 
 /* code pour le clavier */
 /* @media screen and (max-width: 700px)  */
-@media screen and (min-width: 300px){
+@media screen and (max-width: 700px){
   .clavier {
     display: inline-block;
     line-height: 20px;
@@ -247,11 +247,11 @@ span {
   }
 
   img {
-    width: 199px;
+    width: 250px;
   }
 
   .touche img {
-    width: 200px;
+    /* width: 200px; */
     float: left;
   }
 
@@ -274,18 +274,18 @@ span {
   .alt p {
     line-height: normal;
   }
-}
-
+  
 .wrap p {
   /* width: 100px; */
   padding: 0;
-  font-size: 15px;
+  font-size: 18px;
 }
 
 .wrap{
   display: grid;
-
 }
+}
+
 /* 
 .wrap .ctrl{
   position: absolute;
@@ -301,7 +301,7 @@ span {
   right: 18px;
   width: 0 auto; */
 
-}
+
 /*fin du code pour le clavier */
 
 /* code du microsoft office */
