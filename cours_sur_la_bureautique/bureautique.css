@@ -212,14 +212,14 @@ span {
 /*fin du code pour la souris */
 
 /* code pour le clavier */
-@media screen and (max-width: 365px) {
+@media screen and (max-width: 700px) {
   .clavier {
     display: inline-block;
     line-height: 20px;
   }
 
   p {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   img {
