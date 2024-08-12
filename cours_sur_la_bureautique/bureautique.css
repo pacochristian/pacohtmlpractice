@@ -189,15 +189,15 @@ span {
 /* fin de la page de la presentation de microsoft */
 
 /* page du menu demarer */
-.bureau{
+.bureau {
   color: #000;
 }
 
-.demarer li{
+.demarer li {
   margin-left: 15px;
 }
 
-.italic{
+.italic {
   font-style: italic;
 }
 /* fin de la page du menu demarer */
@@ -227,7 +227,7 @@ span {
 
 /* code pour le clavier */
 /* @media screen and (max-width: 700px)  */
-@media screen and (max-width: 700px){
+@media screen and (max-width: 700px) {
   .clavier {
     display: inline-block;
     line-height: 20px;
@@ -241,19 +241,21 @@ span {
     font-size: 15px;
   }
 
-  nav a{
+  nav a {
     font-size: 12px;
   }
-
+  h1 {
+    font-size: 18px;
+  }
   h4 {
     font-size: 16px;
   }
 
-  ol li{
+  ol li {
     font-size: 15px;
   }
 
-  h5{
+  h5 {
     font-size: 15px;
   }
   span {
@@ -288,16 +290,16 @@ span {
   .alt p {
     line-height: normal;
   }
-  
-.wrap p {
-  /* width: 100px; */
-  padding: 0;
-  font-size: 18px;
-}
 
-.wrap{
-  display: grid;
-}
+  .wrap p {
+    /* width: 100px; */
+    padding: 0;
+    font-size: 18px;
+  }
+
+  .wrap {
+    display: grid;
+  }
 }
 
 /*fin du code pour le clavier */
@@ -360,11 +362,9 @@ span {
   .curseur {
     width: 250px;
   }
-/* fin du code du microsoft office */
+  /* fin du code du microsoft office */
 
-/* page du menu demarer */
-h1{
-  font-size: 18px;
-}
-/* fin de la page du menu demarer */
+  /* page du menu demarer */
+
+  /* fin de la page du menu demarer */
 }
