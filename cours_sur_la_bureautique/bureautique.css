@@ -188,6 +188,20 @@ span {
 
 /* fin de la page de la presentation de microsoft */
 
+/* page du menu demarer */
+.bureau{
+  color: #000;
+}
+
+.demarer li{
+  margin-left: 15px;
+}
+
+.italic{
+  font-style: italic;
+}
+/* fin de la page du menu demarer */
+
 /* Le responsive */
 
 @media screen and (max-width: 900px) {
@@ -286,22 +300,6 @@ span {
 }
 }
 
-/* 
-.wrap .ctrl{
-  position: absolute;
-  left: 18px;
-  right: 18px;
-  width: 0 auto;
-
-} */
-/* 
-.wrap .alt{
-  position: absolute;
-  left: 18px;
-  right: 18px;
-  width: 0 auto; */
-
-
 /*fin du code pour le clavier */
 
 /* code du microsoft office */
@@ -362,5 +360,11 @@ span {
   .curseur {
     width: 250px;
   }
-}
 /* fin du code du microsoft office */
+
+/* page du menu demarer */
+h1{
+  font-size: 18px;
+}
+/* fin de la page du menu demarer */
+}
