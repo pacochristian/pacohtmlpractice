@@ -212,18 +212,42 @@ span {
 /*fin du code pour la souris */
 
 /* code pour le clavier */
-@media screen and (max-width: 700px) {
+/* @media screen and (max-width: 700px)  */
+@media screen and (min-width: 300px){
   .clavier {
     display: inline-block;
     line-height: 20px;
   }
 
   p {
-    font-size: 20px;
+    font-size: 19px;
+  }
+
+  ul li {
+    font-size: 15px;
+  }
+
+  nav a{
+    font-size: 12px;
+  }
+
+  h4 {
+    font-size: 16px;
+  }
+
+  ol li{
+    font-size: 15px;
+  }
+
+  h5{
+    font-size: 15px;
+  }
+  span {
+    font-size: 15px;
   }
 
   img {
-    width: 200px;
+    width: 199px;
   }
 
   .touche img {
@@ -243,19 +267,40 @@ span {
     line-height: normal;
   }
 
-  .ctrl p{
+  .ctrl p {
     line-height: normal;
   }
 
-  .alt p{
+  .alt p {
     line-height: normal;
   }
 }
 
-.wrap p{
+.wrap p {
   /* width: 100px; */
   padding: 0;
-  font-size: 16px;
+  font-size: 15px;
+}
+
+.wrap{
+  display: grid;
+
+}
+/* 
+.wrap .ctrl{
+  position: absolute;
+  left: 18px;
+  right: 18px;
+  width: 0 auto;
+
+} */
+/* 
+.wrap .alt{
+  position: absolute;
+  left: 18px;
+  right: 18px;
+  width: 0 auto; */
+
 }
 /*fin du code pour le clavier */
 
