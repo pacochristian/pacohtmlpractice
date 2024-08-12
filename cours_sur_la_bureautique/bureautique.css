@@ -212,7 +212,7 @@ span {
 /*fin du code pour la souris */
 
 /* code pour le clavier */
-@media screen and (max-width: 690px) {
+@media screen and (max-width: 365px) {
   .clavier {
     display: inline-block;
     line-height: 20px;
@@ -223,7 +223,7 @@ span {
   }
 
   img {
-    width: 400px;
+    width: 300px;
   }
 
   .touche img {
@@ -250,6 +250,12 @@ span {
   .alt p{
     line-height: normal;
   }
+}
+
+.wrap p{
+  /* width: 100px; */
+  padding: 0;
+  font-size: 16px;
 }
 /*fin du code pour le clavier */
 
