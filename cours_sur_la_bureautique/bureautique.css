@@ -306,6 +306,16 @@ span {
   .wrap {
     display: grid;
   }
+
+  /* barre des tâches */
+  .modifier{
+    display: grid;
+  }
+
+  .modifier img{
+    width: 300px;
+  }
+  /* fin de la  barre des tâches */
 }
 
 /*fin du code pour le clavier */
@@ -374,13 +384,5 @@ span {
 
   /* fin de la page du menu demarer */
 
-  /* barre des tâches */
-  .modifier{
-    display: grid;
-  }
-
-  .modifier img{
-    width: 100px;
-  }
-  /* fin de la  barre des tâches */
+  
 }
