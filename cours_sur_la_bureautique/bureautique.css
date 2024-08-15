@@ -201,6 +201,11 @@ span {
   font-style: italic;
 }
 /* fin de la page du menu demarer */
+/* page de la barre de taches */
+.modifier{
+  display: flex;
+}
+/* fin de la page de la barre de taches */
 
 /* Le responsive */
 
