@@ -205,6 +205,7 @@ span {
 .modifier{
   display: flex;
 }
+
 /* fin de la page de la barre de taches */
 
 /* Le responsive */
@@ -372,4 +373,14 @@ span {
   /* page du menu demarer */
 
   /* fin de la page du menu demarer */
+
+  /* barre des tâches */
+  .modifier{
+    display: grid;
+  }
+
+  .modifier img{
+    width: 200px;
+  }
+  /* fin de la  barre des tâches */
 }
