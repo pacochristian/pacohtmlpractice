@@ -206,6 +206,9 @@ span {
   display: flex;
 }
 
+.modifier img{
+  /* width: 500px; */
+}
 /* fin de la page de la barre de taches */
 
 /* Le responsive */
@@ -232,7 +235,6 @@ span {
 /*fin du code pour la souris */
 
 /* code pour le clavier */
-/* @media screen and (max-width: 700px)  */
 @media screen and (max-width: 700px) {
   .clavier {
     display: inline-block;
@@ -307,18 +309,19 @@ span {
     display: grid;
   }
 
+/*fin du code pour le clavier */
+
   /* barre des tâches */
   .modifier{
     display: grid;
   }
 
   .modifier img{
-    width: 190px;
+    width: 220px;
   }
   /* fin de la  barre des tâches */
 }
 
-/*fin du code pour le clavier */
 
 /* code du microsoft office */
 @media screen and (max-width: 400px) {
