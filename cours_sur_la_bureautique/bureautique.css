@@ -202,11 +202,11 @@ span {
 }
 /* fin de la page du menu demarer */
 /* page de la barre de taches */
-.modifier{
+.modifier {
   display: flex;
 }
 
-.modifier img{
+.modifier img {
   /* width: 500px; */
 }
 /* fin de la page de la barre de taches */
@@ -309,19 +309,18 @@ span {
     display: grid;
   }
 
-/*fin du code pour le clavier */
+  /*fin du code pour le clavier */
 
   /* barre des tâches */
-  .modifier{
+  .modifier {
     display: grid;
   }
 
-  .modifier img{
-    width: 220px;
+  .modifier img {
+    width: 230px;
   }
   /* fin de la  barre des tâches */
 }
-
 
 /* code du microsoft office */
 @media screen and (max-width: 400px) {
@@ -386,6 +385,4 @@ span {
   /* page du menu demarer */
 
   /* fin de la page du menu demarer */
-
-  
 }
