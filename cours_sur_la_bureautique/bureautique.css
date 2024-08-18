@@ -311,15 +311,7 @@ span {
 
   /*fin du code pour le clavier */
 
-  /* barre des tâches */
-  .modifier {
-    display: grid;
-  }
 
-  .modifier img {
-    width: 230px;
-  }
-  /* fin de la  barre des tâches */
 }
 
 /* code du microsoft office */
@@ -382,7 +374,13 @@ span {
   }
   /* fin du code du microsoft office */
 
-  /* page du menu demarer */
+  /* page de la barre de tâche */
+.modifier {
+  display: grid;
+}
 
-  /* fin de la page du menu demarer */
+.modifier img {
+  width: 230 px;
+}
+  /* fin page de la barre de tâche */
 }
