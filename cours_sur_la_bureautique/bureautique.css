@@ -17,6 +17,28 @@ body {
   line-height: 25px;
 }
 
+.ordinateur .im {
+  display: flex;
+}
+
+.composant .image .car {
+  width: 500px;
+  height: 400px;
+}
+
+.composant .image .cockpit {
+  width: 400px;
+}
+.Windows .im img {
+  display: flex;
+}
+.composant .image {
+  display: flex;
+}
+
+.hard {
+  display: flex;
+}
 .Windows img {
   width: 300px;
   border-radius: 35px;
@@ -215,6 +237,7 @@ span {
 
 @media screen and (max-width: 900px) {
   /* code pour la souris */
+
   .Windows img {
     width: 200px;
   }
@@ -241,6 +264,25 @@ span {
     line-height: 20px;
   }
 
+  .composant .image {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .composant .image .phone, .voiture{
+    width: 200px;
+  }
+.ordinateur .im img{
+  width: 250px;
+  height: 50%;
+}
+  .Windows p{
+    font-size: 15px;
+  }
+  .composant .image .cockpit{
+    width: 200px;
+  }
   p {
     font-size: 19px;
   }
@@ -310,8 +352,6 @@ span {
   }
 
   /*fin du code pour le clavier */
-
-
 }
 
 /* code du microsoft office */
@@ -375,12 +415,12 @@ span {
   /* fin du code du microsoft office */
 
   /* page de la barre de tâche */
-.modifier {
-  display: grid;
-}
+  .modifier {
+    display: grid;
+  }
 
-.modifier img {
-  width: 230 px;
-}
+  .modifier img {
+    width: 230 px;
+  }
   /* fin page de la barre de tâche */
 }
