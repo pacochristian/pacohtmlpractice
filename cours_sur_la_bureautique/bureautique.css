@@ -369,6 +369,9 @@ span {
     /* grid-template-columns: 1fr ; */
   }
   
+  .hard{
+    display: grid;
+  }
   /* fin de la suite de la page de la souris */
   
   .pres {
