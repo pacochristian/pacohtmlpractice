@@ -274,9 +274,15 @@ span {
     width: 200px;
   }
 .ordinateur .im img{
-  width: 250px;
-  height: 50%;
+  /* width: 150px; */
+  /* height: 50%; */
 }
+
+/* .ordinateur .im{
+  display: grid;
+  width: 70%;
+  grid-template-columns: 1fr ;
+} */
   .Windows p{
     font-size: 15px;
   }
@@ -356,6 +362,15 @@ span {
 
 /* code du microsoft office */
 @media screen and (max-width: 400px) {
+  /* suite de la page de la souris */
+  .ordinateur .im{
+    display: grid;
+    width: 98%;
+    /* grid-template-columns: 1fr ; */
+  }
+  
+  /* fin de la suite de la page de la souris */
+  
   .pres {
     width: 250px;
   }
